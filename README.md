@@ -18,14 +18,14 @@ Here is the description of all the variables :
      7. default                      Credit in default.
      8. housing                      Housing loan
      9. loan                         Personal loan
-     10. contact                      Type of communication
-     11. month                        Contact month
-     12. day_of_week                  Day of week of contact
-     13. duration                     Contact duration
-     14. campaign                     number of contacts performed during this campaign to the client
-     15. pdays                        number of days that passed by after the client was last contacted previous number of contacts performed before this campaign
-     16. poutcome                     outcome of the previous marketing campaign
-     17. Subscribed (target)          has the client subscribed a term deposit?
+     10. contact                     Type of communication
+     11. month                       Contact month
+     12. day_of_week                 Day of week of contact
+     13. duration                    Contact duration
+     14. campaign                    number of contacts performed during this campaign to the client
+     15. pdays                       number of days that passed by after the client was last contacted previous number of contacts performed before this campaign
+     16. poutcome                    outcome of the previous marketing campaign
+     17. Subscribed (target)         has the client subscribed a term deposit?
 ## Evaluation Metric
 The Evaluation metric for this competition is accuracy.
 ## Solution Checker
