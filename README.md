@@ -9,29 +9,26 @@ the client will subscribe to term deposit. Data You are provided with following 
     2. test.csv : Use the trained model to predict whether a new set of clients will subscribe the term deposit.
 ## Data Dictionary
 Here is the description of all the variables :
-     Variable                     Definition
-     ID                           Unique client ID
-     age                          Age of the client
-     job                          Type of job
-     marital                      Marital status of the client
-     education                    Education level
-     default                      Credit in default.
-     housing                      Housing loan
-     loan                         Personal loan
-     contact                      Type of communication
-     month                        Contact month
-     day_of_week                  Day of week of contact
-     duration                     Contact duration
-     campaign                     number of contacts performed during this campaign to the client
-     pdays                        number of days that passed by after the client was last contacted previous number of contacts performed before this campaign
-     poutcome                     outcome of the previous marketing campaign
-     Subscribed (target)          has the client subscribed a term deposit?
+     1. Variable                     Definition
+     2. ID                           Unique client ID
+     3. age                          Age of the client
+     4. job                          Type of job
+     5. marital                      Marital status of the client
+     6. education                    Education level
+     7. default                      Credit in default.
+     8. housing                      Housing loan
+     9. loan                         Personal loan
+     10. contact                      Type of communication
+     11. month                        Contact month
+     12. day_of_week                  Day of week of contact
+     13. duration                     Contact duration
+     14. campaign                     number of contacts performed during this campaign to the client
+     15. pdays                        number of days that passed by after the client was last contacted previous number of contacts performed before this campaign
+     16. poutcome                     outcome of the previous marketing campaign
+     17. Subscribed (target)          has the client subscribed a term deposit?
 ## Evaluation Metric
 The Evaluation metric for this competition is accuracy.
 ## Solution Checker
 You can use solution_checker.xlsx to generate score (accuracy) of your
 predictions.
-This is an excel sheet where you are provided with the test IDs and you have to submit your predictions in the “subscribed” column. Below are the steps to submit your predictions and generate score:
-a. Save the predictions on test.csv file in a new csv file.
-b. Open the generated csv file, copy the predictions and paste them in the subscribed column of solution_checker.xlsx file.
-c. Your score will be generated automatically and will be shown in Your Accuracy Score column
+This is an excel sheet where you are provided with the test IDs and you have to submit your predictions in the “subscribed” column. Below are the steps to submit your predictions and generate score.
