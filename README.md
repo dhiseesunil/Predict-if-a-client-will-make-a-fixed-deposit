@@ -8,9 +8,9 @@ the client will subscribe to term deposit. Data You are provided with following 
     1. train.csv : Use this dataset to train the model. This file contains all the client and call details as well as the target variable “subscribed”. You have  to train your model using this file.
     2. test.csv : Use the trained model to predict whether a new set of clients will subscribe the term deposit.
 ## Data Dictionary
-Here is the description of all the variables :
-####1. Variable                     Definition
-####2. ID                           Unique client ID
+#### Here is the description of all the variables :
+     1. Variable                     Definition
+     2. ID                           Unique client ID
      3. age                          Age of the client
      4. job                          Type of job
      5. marital                      Marital status of the client
