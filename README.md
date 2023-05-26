@@ -9,8 +9,8 @@ the client will subscribe to term deposit. Data You are provided with following 
     2. test.csv : Use the trained model to predict whether a new set of clients will subscribe the term deposit.
 ## Data Dictionary
 Here is the description of all the variables :
-     1. Variable                     Definition
-     2. ID                           Unique client ID
+   ####1. Variable                     Definition
+   ####2. ID                           Unique client ID
      3. age                          Age of the client
      4. job                          Type of job
      5. marital                      Marital status of the client
